@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin-left:200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    background-color: black;
+    
+}
+.header img{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding:10px;
+
+}
+/* middle section */
+.middle{
+    display: flex;
+    gap:100px;
+    justify-content: flex-start;
+    
+}
+.mrs-image{
+    width:500px;
+}
+.mls{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+}
+.mls-sub
+{
+    font-family: 'Changa One', cursive;
+}
+.pikachu-button {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #ffcb05;
+    background: #ffcb05;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 2px 2px 0 #333;
+    position: relative;
+  }
+  
+  .pikachu-button:before,
+  .pikachu-button:after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    background: #ffcb05;
+    border: 2px solid #333;
+    border-radius: 50%;
+  }
+  
+  .pikachu-button:before {
+    left: -10px;
+  }
+  
+  .pikachu-button:after {
+    right: -10px;
+  }
+.s{
+    width:100%;
+}
+.links{
+    gap:100px;
+}
+
+
+
+.random{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading-r{
+    margin:50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.image{
+    width:250px;
+    border:2px solid red;
+}
+.powerimage{
+    width:250px;
+}
+.power-r{
+    display: flex;
+    gap:100px;
+
+}
